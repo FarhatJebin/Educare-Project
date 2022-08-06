@@ -1,0 +1,42 @@
+.c-img{
+        filter: brightness(60%);
+}
+.fa-star{
+        color: gold;
+}
+.company{
+        width: 8%;
+}
+body {
+        font-family: "League Spartan", sans-serif;
+        overflow-x: hidden;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      /* carousol  */     
+      .carousel-item::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        bottom: 0%;
+        right: 0%;
+        background: #121212;
+        opacity: 0.5;
+      }  
+      /* cources */
+      .card {
+        max-width: 800px !important;
+      }
+      .explore{
+        margin-left: -12px;
+      } 
+      @media (max-width: 768px) {
+        .carousel-item img {
+          object-fit: cover;
+          height: 70vh;
+        }
+      }
+
